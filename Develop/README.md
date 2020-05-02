@@ -13,15 +13,15 @@
 
 ## Description
 
-
+Work-in-progress for my personal portfolio.
 
 ## Installation
 
-
+No installation required.
 
 ## Usage
 
-
+The website is accessible through a web browser.
 
 ## License
 
@@ -29,17 +29,17 @@ MIT
 
 ## Contributing
 
-
+Feel free to fork and clone the repository.
 
 ## Tests
 
-npm run test
+No tests written.
 
 ## Questions
 
 Forward all questions to jaykim92@gmail.com
 
 The full repository can be viewed at:
-Repository URL could not be generated
+https://github.com/jaykim92/portfolio
 ![Profile Picture](https://github.com/jaykim92.png?size=200 "Profile Picture")
 

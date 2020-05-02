@@ -2,7 +2,7 @@ function generateRepo(username, title) {
   if (username && title) {
     return `https://github.com/${username}/${title}`;
   } else {
-    return 'Repository URL could not be generated'
+    return 'Error: name of repository was left blank'
   };
 };
 
@@ -10,7 +10,7 @@ function generatePicture(username) {
   if (username) {
     return `https://github.com/${username}.png?size=200`;
   } else {
-    return 'Picture could not be found'
+    return 'Error: username was left blank'
   };
 };
 
@@ -18,7 +18,7 @@ function generateBadge(username, title) {
   if (username && title) {
     return `https://img.shields.io/github/repo-size/${username}/${title}`;
   } else {
-    return 'Badge could not be generated'
+    return 'Error: username and/or name of repository was left blank'
   }
 };
 
@@ -26,7 +26,7 @@ function generateLink(username, title) {
   if (username && title) {
     return `https://${username}.github.io/${title}/`;
   } else {
-    return 'URL could not be generated';
+    return 'Error: username and/or name of repository was left blank';
   };
 };
 
